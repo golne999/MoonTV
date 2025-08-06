@@ -87,11 +87,5 @@
       "prettier -w"
     ]
   },
-"packageManager": "pnpm@10.14.0",
-"engines": {
-  "node": "22.x"
-},
-"pnpm": {
-  "allowedBuildScripts": ["esbuild", "sharp", "unrs-resolver", "workerd"]
-}  
+"packageManager": "pnpm@10.14.0"
 }
