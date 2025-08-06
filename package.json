@@ -87,5 +87,8 @@
       "prettier -w"
     ]
   },
-"packageManager": "pnpm@10.14.0"
+"packageManager": "pnpm@10.14.0",
+"scripts": {
+  "build": "pnpm gen:runtime && pnpm gen:manifest && next build --no-lint"
+}
 }
